@@ -13,7 +13,7 @@ import redis.clients.jedis.JedisPoolConfig;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 public class EshopDataSyncServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EshopDataSyncServiceApplication.class, args); 
